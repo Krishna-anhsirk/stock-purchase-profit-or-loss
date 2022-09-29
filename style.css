@@ -9,8 +9,11 @@
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-color: #86efac;
+}
+
+main {
   display: flex;
+  background-color: #86efac;
 }
 
 .container {
@@ -42,4 +45,29 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.list-unordered {
+  list-style: none;
+}
+
+.inline-list {
+  display: inline;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 0 5rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
 }
