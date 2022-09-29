@@ -4,7 +4,7 @@ const currentPrice = document.querySelector("#current-price");
 const showBtn = document.querySelector("#show-btn");
 const outputBox = document.querySelector("#output");
 
-showBtn.addEventListener("click", submitHandler());
+showBtn.addEventListener("click", submitHandler);
 
 function submitHandler() {
   var initial = Number(initialPrice.value);
