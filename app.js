@@ -13,6 +13,8 @@ function submitHandler() {
 
   if (!initial || !quantity || !current) {
     showMessage("Enter all the fields");
+  } else if (initial <= 0 || quantity <= 0) {
+    showMessage("Enter valid values 😡");
   } else {
     calculateProfitLoss(initial * quantity, current * quantity);
   }
